@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Ваша сторінка</title>
+</head>
+<body>
+<div class="main">
+<h1>Моє Резюме</h1>
+<div>
+    <fieldset><legend>Контактна інформція</legend>
+        <label>Ім'я</label><input type="username" placeholder="Введіть ім'я"><br>
+        <label>Прізвище</label><input type="username" placeholder="Введіть прізвище"><br>
+        <label>Email</label><input type="email" placeholder="Введіть пошту"><br>
+        <label>Телефон</label><input type="tel" placeholder="Введіть телефон"><br>
+    </fieldset>
+</div>
+<div>
+    <fieldset><legend>Особиста інформація</legend>
+        <label>Місто</label><select name="city">
+            <option value="odessa">Одеса</option>
+            <option value="lviv">Львів</option>
+            <option value="kyiv">Київ</option>
+        </select><br>
+        <label>Народження</label><input type="date" name="birthdate"><br>
+        <input name="1" type="radio"><label>Чоловік</label>
+        <input name="1" type="radio"><label>Жінка</label>
+        <input name="1" type="radio"><label>Інше</label>
+    </fieldset>
+</div>
+<div>
+    <fieldset><legend>Навички</legend>
+        <label>Освіта</label><input type="text" placeholder="Введіть освіту"><br>
+        <label>Досвід роботи</label><input name="2" type="radio"><label>так</label>
+        <input name="2" type="radio"><label>ні</label>
+    </fieldset>
+</div>
+<input class="submit" type="submit" placeholder="Відправити">
+<input class="reset" type="reset" placeholder="Скасувати">
+</div>
+</body>
+</html>
